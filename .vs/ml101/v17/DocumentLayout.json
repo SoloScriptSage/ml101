@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Projects\\ml101\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{97CADB84-044D-4EE3-B9F9-5A5FE45DC7BE}|ml101\\ml101.vcxproj|D:\\Projects\\ml101\\ml101\\data_handler.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{97CADB84-044D-4EE3-B9F9-5A5FE45DC7BE}|ml101\\ml101.vcxproj|solutionrelative:ml101\\data_handler.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97CADB84-044D-4EE3-B9F9-5A5FE45DC7BE}|ml101\\ml101.vcxproj|D:\\Projects\\ml101\\ml101\\data_handler.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{97CADB84-044D-4EE3-B9F9-5A5FE45DC7BE}|ml101\\ml101.vcxproj|solutionrelative:ml101\\data_handler.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97CADB84-044D-4EE3-B9F9-5A5FE45DC7BE}|ml101\\ml101.vcxproj|D:\\Projects\\ml101\\ml101\\data.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{97CADB84-044D-4EE3-B9F9-5A5FE45DC7BE}|ml101\\ml101.vcxproj|solutionrelative:ml101\\data.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97CADB84-044D-4EE3-B9F9-5A5FE45DC7BE}|ml101\\ml101.vcxproj|D:\\Projects\\ml101\\ml101\\data.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{97CADB84-044D-4EE3-B9F9-5A5FE45DC7BE}|ml101\\ml101.vcxproj|solutionrelative:ml101\\data.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +26,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "data_handler.cc",
+              "DocumentMoniker": "D:\\Projects\\ml101\\ml101\\data_handler.cc",
+              "RelativeDocumentMoniker": "ml101\\data_handler.cc",
+              "ToolTip": "D:\\Projects\\ml101\\ml101\\data_handler.cc",
+              "RelativeToolTip": "ml101\\data_handler.cc",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-20T10:35:18.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "data_handler.hpp",
+              "DocumentMoniker": "D:\\Projects\\ml101\\ml101\\data_handler.hpp",
+              "RelativeDocumentMoniker": "ml101\\data_handler.hpp",
+              "ToolTip": "D:\\Projects\\ml101\\ml101\\data_handler.hpp",
+              "RelativeToolTip": "ml101\\data_handler.hpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-20T10:19:08.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "data.cc",
+              "DocumentMoniker": "D:\\Projects\\ml101\\ml101\\data.cc",
+              "RelativeDocumentMoniker": "ml101\\data.cc",
+              "ToolTip": "D:\\Projects\\ml101\\ml101\\data.cc",
+              "RelativeToolTip": "ml101\\data.cc",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-20T10:30:27.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "data.hpp",
+              "DocumentMoniker": "D:\\Projects\\ml101\\ml101\\data.hpp",
+              "RelativeDocumentMoniker": "ml101\\data.hpp",
+              "ToolTip": "D:\\Projects\\ml101\\ml101\\data.hpp",
+              "RelativeToolTip": "ml101\\data.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-20T10:13:11.06Z",
+              "EditorCaption": ""
             }
           ]
         }
