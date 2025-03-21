@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "ml101\\data_handler.cc",
               "ToolTip": "D:\\Projects\\ml101\\ml101\\data_handler.cc",
               "RelativeToolTip": "ml101\\data_handler.cc",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwB0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-20T10:35:18.767Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "ml101\\data_handler.hpp",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-20T10:19:08.228Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T10:19:08.228Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "ml101\\data.cc",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-20T10:30:27.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T10:30:27.789Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "ml101\\data.hpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-20T10:13:11.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T10:13:11.06Z"
             }
           ]
         }
