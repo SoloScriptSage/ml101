@@ -13,6 +13,8 @@ class Data {
 	int enum_label;
 
 public:
+	Data();
+	~Data();
 	void set_feature_vector(vector<uint8_t> *);
 	void append_to_feature_vector(uint8_t);
 	void set_label(uint8_t);

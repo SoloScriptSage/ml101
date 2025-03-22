@@ -27,16 +27,30 @@ void DataHandler::read_feature_vector(string path) {
 
 		int image_size = header[2] * header[3];
 		for (int i = 0; i < header[1]; ++i) {
-			unsigned char* image = new unsigned char[image_size];
-			if (fread(image, sizeof(unsigned char), image_size, file)) {
-				Data* data = new Data(image, image_size);
-				data_array->push_back(data);
+			Data* data = new Data();
+			uint8_t pixel;
+			for (int j = 0; j < image_size; ++j) {
+				if (fread(&pixel, sizeof(pixel), 1, file)) {
+					data->append_to_feature_vector(pixel);
+				}
+				else {
+					printf("Error reading pixel\n");
+					exit(1);
+				}
 			}
+			data_array->push_back(data);
 		}
+		printf("Successfully read and stored %lu feature vectors\n", data_array->size());
+	}
+	else {
+		printf("Error opening file\n");
+		exit(1);
 	}
 }
 
-void DataHandler::read_feature_labels(string path);
+void DataHandler::read_feature_labels(string path) {
+
+}
 
 void DataHandler::split_data();
 void DataHandler::count_classes();

@@ -1,5 +1,12 @@
 #include "data.hpp"
 
+Data::Data() {
+	feature_vector = new vector<uint8_t>();
+}
+Data::~Data() {
+	delete feature_vector;
+}
+
 void Data::set_feature_vector(vector<uint8_t> *vect) {
 	feature_vector = vect;
 }
