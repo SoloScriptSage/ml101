@@ -2,29 +2,28 @@
 #define __DATA_H
 
 #include <vector>
-#include <stdint.h>
-#include <stdio.h>
-
-using namespace std;
+#include <cstdint>
+#include <memory>
 
 class Data {
-	vector<uint8_t> *feature_vector; // No class at end
-	uint8_t label;
-	int enum_label;
+    std::vector<uint8_t> feature_vector;
+    uint8_t label;
+    int enum_label;
 
 public:
-	Data();
-	~Data();
-	void set_feature_vector(vector<uint8_t> *);
-	void append_to_feature_vector(uint8_t);
-	void set_label(uint8_t);
-	void set_enum_label(int);
+    Data() = default;
+    ~Data() = default;
 
-	int get_feaure_vector_size();
-	uint8_t get_label(int);
-	int get_enum_label();
+    void set_feature_vector(const std::vector<uint8_t>& vect);
+    void append_to_feature_vector(uint8_t val);
+    void set_label(uint8_t val);
+    void set_enum_label(int val);
 
-	vector<uint8_t>* get_feature_vector();
+    int get_feature_vector_size() const;
+    uint8_t get_label() const;
+    int get_enum_label() const;
+
+    const std::vector<uint8_t>& get_feature_vector() const;
 };
 
 #endif
