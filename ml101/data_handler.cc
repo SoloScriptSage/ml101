@@ -130,3 +130,11 @@ void DataHandler::count_classes() {
 
     num_classes = count;
 }
+
+int main() {
+    DataHandler* dataHandler = new DataHandler();
+    dataHandler->read_feature_vector(".../FILE_NAME");
+    dataHandler->read_feature_labels(".../FILE_NAME");
+    dataHandler->split_data();
+    dataHandler->count_classes();
+}
