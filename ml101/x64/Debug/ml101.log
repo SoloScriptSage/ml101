@@ -1,9 +1,5 @@
-﻿  data.cc
-D:\Projects\ml101\ml101\data.cc(20,31): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
-  data_handler.cc
+﻿  data_handler.cc
 D:\Projects\ml101\ml101\data_handler.cc(25,23): warning C4018: '<': signed/unsigned mismatch
-D:\Projects\ml101\ml101\data_handler.cc(10,18): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\Projects\ml101\ml101\data_handler.cc(50,18): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\Projects\ml101\ml101\data_handler.cc(89,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-D:\Projects\ml101\ml101\data_handler.cc(90,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-  Generating Code...
+D:\Projects\ml101\ml101\data_handler.cc(91,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Projects\ml101\ml101\data_handler.cc(92,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  ml101.vcxproj -> D:\Projects\ml101\x64\Debug\ml101.exe

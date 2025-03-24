@@ -7,8 +7,8 @@ void DataHandler::read_feature_vector(const std::string& path) {
     uint32_t header[4]; // MAGIC | NUM IMAGES | ROWSIZE | COLSIZE
     unsigned char bytes[4];
 
-    FILE* file = fopen(path.c_str(), "rb");
-    if (!file) {
+    FILE* file;
+    if (!fopen_s(&file, path.c_str(), "rb")) {
         perror("Error opening feature vector file");
         exit(EXIT_FAILURE);
     }
@@ -39,7 +39,7 @@ void DataHandler::read_feature_vector(const std::string& path) {
         data_array.push_back(std::move(data));
     }
 
-    fclose(file);
+    if (file) fclose(file);
     std::cout << "Successfully read and stored " << data_array.size() << " feature vectors\n";
 }
 
@@ -47,8 +47,10 @@ void DataHandler::read_feature_labels(const std::string& path) {
     uint32_t header[2]; // MAGIC | NUM IMAGES
     unsigned char bytes[4];
 
-    FILE* file = fopen(path.c_str(), "rb");
-    if (!file) {
+    FILE* file;
+    if (!fopen_s(&file, path.c_str(), "rb")) {
+        std::cerr << "Error opening file: " <<
+            path << std::endl;
         perror("Error opening label file");
         exit(EXIT_FAILURE);
     }
@@ -133,8 +135,8 @@ void DataHandler::count_classes() {
 
 int main() {
     DataHandler* dataHandler = new DataHandler();
-    dataHandler->read_feature_vector(".../FILE_NAME");
-    dataHandler->read_feature_labels(".../FILE_NAME");
+    dataHandler->read_feature_vector("D:\\Projects\\ml101\\fashion\\train-images-idx3-ubyte");
+    dataHandler->read_feature_labels("D:\\Projects\\ml101\\fashion\\train-labels-idx1-ubyte");
     dataHandler->split_data();
     dataHandler->count_classes();
 }
