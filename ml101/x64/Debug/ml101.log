@@ -1,5 +1,27 @@
 ﻿  data_handler.cc
-D:\Projects\ml101\ml101\data_handler.cc(25,23): warning C4018: '<': signed/unsigned mismatch
-D:\Projects\ml101\ml101\data_handler.cc(91,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-D:\Projects\ml101\ml101\data_handler.cc(92,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Projects\ml101\ml101\data_handler.cc(35,27): warning C4018: '<': signed/unsigned mismatch
+D:\Projects\ml101\ml101\data_handler.cc(51,16): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'unsigned __int64'
+      D:\Projects\ml101\ml101\data_handler.cc(51,16):
+      consider using '%zu' in the format string
+  
+D:\Projects\ml101\ml101\data_handler.cc(72,27): warning C4018: '<': signed/unsigned mismatch
+D:\Projects\ml101\ml101\data_handler.cc(82,73): warning C4474: 'printf' : too many arguments passed for format string
+      D:\Projects\ml101\ml101\data_handler.cc(82,73):
+      placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+  
+D:\Projects\ml101\ml101\data_handler.cc(92,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Projects\ml101\ml101\data_handler.cc(93,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Projects\ml101\ml101\data_handler.cc(94,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Projects\ml101\ml101\data_handler.cc(129,12): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'unsigned __int64'
+      D:\Projects\ml101\ml101\data_handler.cc(129,12):
+      consider using '%zu' in the format string
+  
+D:\Projects\ml101\ml101\data_handler.cc(130,12): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'unsigned __int64'
+      D:\Projects\ml101\ml101\data_handler.cc(130,12):
+      consider using '%zu' in the format string
+  
+D:\Projects\ml101\ml101\data_handler.cc(131,12): warning C4477: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'unsigned __int64'
+      D:\Projects\ml101\ml101\data_handler.cc(131,12):
+      consider using '%zu' in the format string
+  
   ml101.vcxproj -> D:\Projects\ml101\x64\Debug\ml101.exe
